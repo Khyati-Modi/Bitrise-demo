@@ -315,7 +315,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		42C87344281FFA0D004971A8 /* Debug */ = {
+		42C87344281FFA0D004971A8 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -366,7 +366,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -374,7 +374,7 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
-			name = Debug;
+			name = Development;
 		};
 		42C87345281FFA0D004971A8 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -421,7 +421,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -431,12 +431,14 @@
 			};
 			name = Release;
 		};
-		42C87347281FFA0D004971A8 /* Debug */ = {
+		42C87347281FFA0D004971A8 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = G34KQT9TPD;
 				INFOPLIST_FILE = "Bitrise-demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -444,17 +446,20 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.khyatimodi.Bitrise-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "SA Star";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Debug;
+			name = Development;
 		};
 		42C87348281FFA0D004971A8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = G34KQT9TPD;
 				INFOPLIST_FILE = "Bitrise-demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -462,12 +467,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.khyatimodi.Bitrise-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "SA Star";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		42C8734A281FFA0D004971A8 /* Debug */ = {
+		42C8734A281FFA0D004971A8 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -486,7 +492,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bitrise-demo.app/Bitrise-demo";
 			};
-			name = Debug;
+			name = Development;
 		};
 		42C8734B281FFA0D004971A8 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -509,7 +515,7 @@
 			};
 			name = Release;
 		};
-		42C8734D281FFA0D004971A8 /* Debug */ = {
+		42C8734D281FFA0D004971A8 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -526,7 +532,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Bitrise-demo";
 			};
-			name = Debug;
+			name = Development;
 		};
 		42C8734E281FFA0D004971A8 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -553,7 +559,7 @@
 		42C87317281FFA0C004971A8 /* Build configuration list for PBXProject "Bitrise-demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				42C87344281FFA0D004971A8 /* Debug */,
+				42C87344281FFA0D004971A8 /* Development */,
 				42C87345281FFA0D004971A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -562,7 +568,7 @@
 		42C87346281FFA0D004971A8 /* Build configuration list for PBXNativeTarget "Bitrise-demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				42C87347281FFA0D004971A8 /* Debug */,
+				42C87347281FFA0D004971A8 /* Development */,
 				42C87348281FFA0D004971A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -571,7 +577,7 @@
 		42C87349281FFA0D004971A8 /* Build configuration list for PBXNativeTarget "Bitrise-demoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				42C8734A281FFA0D004971A8 /* Debug */,
+				42C8734A281FFA0D004971A8 /* Development */,
 				42C8734B281FFA0D004971A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -580,7 +586,7 @@
 		42C8734C281FFA0D004971A8 /* Build configuration list for PBXNativeTarget "Bitrise-demoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				42C8734D281FFA0D004971A8 /* Debug */,
+				42C8734D281FFA0D004971A8 /* Development */,
 				42C8734E281FFA0D004971A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
